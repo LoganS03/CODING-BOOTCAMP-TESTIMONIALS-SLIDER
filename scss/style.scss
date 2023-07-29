@@ -41,7 +41,7 @@ main{
                     background-repeat: no-repeat;
                     background-position: 95px 0;
 
-                    margin-left: -3000px;
+                    transform: translateX(-5000px);
                     transition: 2s;
                     z-index: 1;
                     
@@ -70,7 +70,7 @@ main{
                 }
 
                 .active{
-                    transform: translateX(3000px);
+                    transform: translateX(0);
                     transition: 2s;
                 }
             }
@@ -100,7 +100,6 @@ main{
                 
                 .active{
                     margin-left: 65px;
-                    // transform: translateX(3000px);
                     transition: 2s;
                 }
             }

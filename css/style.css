@@ -35,7 +35,7 @@ main .sliders .slider .text > div {
   background-image: url(../img/bg-shapes.svg);
   background-repeat: no-repeat;
   background-position: 95px 0;
-  margin-left: -3000px;
+  transform: translateX(-5000px);
   transition: 2s;
   z-index: 1;
 }
@@ -58,7 +58,7 @@ main .sliders .slider .text > div .author span {
   margin-left: 10px;
 }
 main .sliders .slider .text .active {
-  transform: translateX(3000px);
+  transform: translateX(0);
   transition: 2s;
 }
 main .sliders .slider .image {
